@@ -1,0 +1,115 @@
+body{
+    background-color: hsl(30, 38%, 92% )
+}
+.card{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    bottom: 50%;
+  
+    
+}
+
+.card-content img{
+    height: 65vh;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    width: 300px;
+
+}
+
+.card-content2{
+    height: 65vh;
+    background-color: hsl(0, 0%, 100% );
+    width: 250px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    font-family: 'Montserrat';
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    padding: 5px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.perfume{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+
+button span{
+    margin-left: 2rem;
+    color: white;
+}
+
+.dollar{
+   display: flex;
+}
+
+.new-price{
+color: hsl(158, 36%, 37%);
+font-family:"Fraunces" ;
+}
+.old-price{
+    text-decoration: line-through;
+    padding-left: 40px;
+    padding-top: 16px;
+}
+
+
+@media (max-width:623px ) {
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        }
+
+    .card-content2{
+        height: 70vh;
+        background-color: hsl(0, 0%, 100% );
+        width: 237.6px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+       border-top-right-radius: 0%;
+        border-bottom-right-radius: 3%;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 3%;
+        font-family: 'Montserrat';
+    }
+    .card-content img{
+        
+            height: 60vh;
+            border-top-left-radius: 3%;
+            border-bottom-left-radius: 0%;
+            width: 300px;
+    }
+    button{
+        background-color: hsl(158, 36%, 37%);
+        padding: 10px;
+        width: 100%;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+        margin-bottom: 2rem;
+    }
+}
